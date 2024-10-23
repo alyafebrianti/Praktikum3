@@ -1,3 +1,6 @@
+tugas praktikum 3 bahasa pemrograman 
+nama: alya febrianti
+kelas : TI 24.A.1
 # Program Mencari Bilangan Terbesar
 Program sederhana untuk mencari nilai terbesar dari sekumpulan bilangan yang dimasukkan oleh pengguna menggunakan loop while True dan break statement.
 ## Deskripsi Program
@@ -41,4 +44,4 @@ Press Enter to exit terminal
 ````
 
 ## Cara Kerja Program
-variable max yang diisi dengan nilai 0, setelah itu terdapat variable inputan dengan nama bilangan, jika kondisi bilangan tidak sama dengan 0 maka akan mencari bilangan lebih dari max dan variable max di set dengan bilangan tersebut. jika bilangan lebih kecil dari max maka bilangan akan menginput kembali. Sehingga akan menghasilkan bilangan terbesar dari operasi tersebut.
+
