@@ -9,10 +9,34 @@ Program ini dibuat menggunakan bahasa Python dengan fitur:
 - Menggunakan break statement untuk menghentikan program
 - Membandingkan setiap input dengan nilai maksimum yang tersimpan
 - Menampilkan bilangan terbesar yang ditemukan
- ## Flowchart Program
+
+ ## Flowchart 1
+ ![Flowchart](Flowchart1.png)
+ ## Flowchart Program 2
  ![Flowchart](Flowchart.png)
 
- ## Kode Programan 
+ ## Kode Programan 1
+ ```python
+a = int(input ("masukan angka: "))
+b = int(input ("masukan angka: "))
+c = int(input ("masukan angka: "))
+
+
+if a > b:
+    if a > c:
+        terbesar = a
+    else:
+        terbesar = c
+else:
+    if b > c:
+        terbesar = b
+    else:
+        terbesar = c 
+
+print (f"Bilangan Terbesar adalah {terbesar}")
+```
+
+ ## Kode Programan 2
 ```python
 max = 0
 bilangan = int(input("masukan bilangan :"))
@@ -23,8 +47,16 @@ while bilangan != 0 :
 
 print (f"bilangan terbesar= {max}")
 ```
-
-## Contoh Output
+## Contoh Output 1
+````markdown
+masukan bilangan :23
+masukan bilangan :60
+masukan bilangan :90
+masukan bilangan :87
+masukan bilangan :0
+bilangan terbesar= 90
+````
+## Contoh Output 2
 ````markdown
 masukan bilangan :
 90
