@@ -1,6 +1,6 @@
-tugas praktikum 3 bahasa pemrograman 
-nama: alya febrianti
-kelas : TI 24.A.1
+## Tugas Praktikum 3 Bahasa Pemrograman 
+## Nama: Alya Febrianti
+## Kelas : TI 24.A.1
 # Program Mencari Bilangan Terbesar
 Program sederhana untuk mencari nilai terbesar dari sekumpulan bilangan yang dimasukkan oleh pengguna menggunakan loop while True dan break statement.
 ## Deskripsi Program
@@ -10,7 +10,7 @@ Program ini dibuat menggunakan bahasa Python dengan fitur:
 - Membandingkan setiap input dengan nilai maksimum yang tersimpan
 - Menampilkan bilangan terbesar yang ditemukan
 
- ## Flowchart 1
+ ## Flowchart Program 1
  ![Flowchart](Flowchart1.png)
  ## Flowchart Program 2
  ![Flowchart](Flowchart.png)
@@ -75,7 +75,12 @@ bilangan terbesar=90
 Press Enter to exit terminal
 ````
 
-## Cara Kerja Program
+## Cara Kerja Program 1
+Program ini dimulai dengan meminta pengguna untuk memasukkan tiga angka. Setelah angka-angka tersebut dimasukkan, program menggunakan fungsi max() untuk menentukan angka yang paling besar di antara ketiga angka tersebut. Fungsi max()  secara otomatis membandingkan semua angka dan mengembalikan yang terbesar. Setelah menemukan angka terbesar, program menampilkan hasilnya kepada pengguna dengan kalimat yang jelas. Dengan cara ini, kode menjadi lebih ringkas dan mudah dibaca, tanpa perlu membuat banyak kondisi untuk perbandingan.
+
+Bagian output menunjukkan bahwa program berhasil. Setelah memasukkan angka 90, 20, 60, 70, dan 0 program dengan tepat menemukan bahwa angka terbesar adalah 90. Ini menunjukkan bahwa logika untuk mencari angka terbesar berfungsi dengan baik.
+
+## Cara Kerja Program 2
 
 Program yang saya buat berfungsi untuk mencari bilangan terbesar dari input yang diberikan pengguna. Pertama, program menginisialisasi variabel max dengan nilai 0. Kemudian, program meminta pengguna untuk memasukkan bilangan. Jika bilangan yang dimasukkan bukan 0, program akan memeriksa apakah bilangan itu lebih besar dari nilai max. Jika iya, nilai max akan diperbarui dengan bilangan tersebut. Proses ini berulang hingga pengguna memasukkan 0, yang menandakan akhir dari input. Setelah itu, program mencetak bilangan terbesar yang ditemukan. 
 
