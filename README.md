@@ -1,17 +1,29 @@
 ## Tugas Praktikum 3 Bahasa Pemrograman 
 ## Nama: Alya Febrianti
 ## Kelas : TI 24.A.1
-# Program Mencari Bilangan Terbesar
+# 1. Program Mencari Bilangan Terbesar dari 3 Variabel
+Program sederhana menentukan bilangan terbesar dari tiga angka yang dimasukkan
+
+## Deskripsi Program
+- Meminta user memasukkan 3 bilangan berbeda
+- function tersebut menggunakan nested if-else statement untuk membandingkan angka yang di inputkan
+- Kemudian akan menampilkan Mana bilangan terbesar
+- Lalu kita panggil kembali function mencari_biilangan_terbesar
+- Lalu Output bilangan terbesar dari ketiga bilangan yang di input akan muncul
+  
+ ## Flowchart Program 1
+ ![Flowchart](Flowchart1.png)
+ 
+## 2. Program Mencari Bilangan Terbesar 
 Program sederhana untuk mencari nilai terbesar dari sekumpulan bilangan yang dimasukkan oleh pengguna menggunakan loop while True dan break statement.
+
 ## Deskripsi Program
 Program ini dibuat menggunakan bahasa Python dengan fitur:
 - Menggunakan while True untuk perulangan tak terbatas
 - Menggunakan break statement untuk menghentikan program
 - Membandingkan setiap input dengan nilai maksimum yang tersimpan
 - Menampilkan bilangan terbesar yang ditemukan
-
- ## Flowchart Program 1
- ![Flowchart](Flowchart1.png)
+  
  ## Flowchart Program 2
  ![Flowchart](Flowchart.png)
 
@@ -37,6 +49,14 @@ else:
 
 print(f"Bilangan terbesar adalah: {terbesar}")
 ```
+## Contoh Output 1
+````markdown
+Masukkan bilangan A: 31
+Masukkan bilangan B: 20
+Masukkan bilangan C: 0
+Terbesar adalah A
+Bilangan terbesar adalah: 31
+````
 
  ## Kode Programan 2
 ```python
@@ -49,14 +69,7 @@ while bilangan != 0 :
 
 print (f"bilangan terbesar= {max}")
 ```
-## Contoh Output 1
-````markdown
-Masukkan bilangan A: 31
-Masukkan bilangan B: 20
-Masukkan bilangan C: 0
-Terbesar adalah A
-Bilangan terbesar adalah: 31
-````
+
 ## Contoh Output 2
 ````markdown
 masukan bilangan :
@@ -77,6 +90,8 @@ Press Enter to exit terminal
 ````
 
 ## Cara Kerja Program 1
+Menerima input 3 bilangan (A, B, C) dari user Melakukan pengecekan dengan urutan: Apakah A > B? Jika ya: cek apakah A > C? Jika ya: A adalah terbesar Jika tidak: C adalah terbesar Jika tidak: cek apakah B > C? Jika ya: B adalah terbesar Jika tidak: C adalah terbesar Menampilkan bilangan terbesar yang ditemukan.
+
 Program ini dimulai dengan meminta pengguna untuk memasukkan tiga angka. Setelah angka-angka tersebut dimasukkan, program menggunakan fungsi max() untuk menentukan angka yang paling besar di antara ketiga angka tersebut. Fungsi max()  secara otomatis membandingkan semua angka dan mengembalikan yang terbesar. Setelah menemukan angka terbesar, program menampilkan hasilnya kepada pengguna dengan kalimat yang jelas. Dengan cara ini, kode menjadi lebih ringkas dan mudah dibaca, tanpa perlu membuat banyak kondisi untuk perbandingan.
 
 Bagian output menunjukkan bahwa program berhasil. Setelah memasukkan angka 31, 20, dan 0 program dengan tepat menemukan bahwa angka terbesar adalah 31. Ini menunjukkan bahwa logika untuk mencari angka terbesar berfungsi dengan baik.
