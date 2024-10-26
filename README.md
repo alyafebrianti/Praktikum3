@@ -17,23 +17,25 @@ Program ini dibuat menggunakan bahasa Python dengan fitur:
 
  ## Kode Programan 1
  ```python
-a = int(input ("masukan angka: "))
-b = int(input ("masukan angka: "))
-c = int(input ("masukan angka: "))
-
+a = int(input("Masukkan bilangan A: "))
+b = int(input("Masukkan bilangan B: "))
+c = int(input("Masukkan bilangan C: "))
 
 if a > b:
     if a > c:
+        print("Terbesar adalah A")
         terbesar = a
     else:
+        print("Terbesar adalah c")
         terbesar = c
 else:
     if b > c:
+        print("Terbesar adalah B")
         terbesar = b
     else:
-        terbesar = c 
+        print("Terbesar adalah C")
 
-print (f"Bilangan Terbesar adalah {terbesar}")
+print(f"Bilangan terbesar adalah: {terbesar}")
 ```
 
  ## Kode Programan 2
@@ -49,12 +51,11 @@ print (f"bilangan terbesar= {max}")
 ```
 ## Contoh Output 1
 ````markdown
-masukan bilangan :23
-masukan bilangan :60
-masukan bilangan :90
-masukan bilangan :87
-masukan bilangan :0
-bilangan terbesar= 90
+Masukkan bilangan A: 31
+Masukkan bilangan B: 20
+Masukkan bilangan C: 0
+Terbesar adalah A
+Bilangan terbesar adalah: 31
 ````
 ## Contoh Output 2
 ````markdown
@@ -78,7 +79,7 @@ Press Enter to exit terminal
 ## Cara Kerja Program 1
 Program ini dimulai dengan meminta pengguna untuk memasukkan tiga angka. Setelah angka-angka tersebut dimasukkan, program menggunakan fungsi max() untuk menentukan angka yang paling besar di antara ketiga angka tersebut. Fungsi max()  secara otomatis membandingkan semua angka dan mengembalikan yang terbesar. Setelah menemukan angka terbesar, program menampilkan hasilnya kepada pengguna dengan kalimat yang jelas. Dengan cara ini, kode menjadi lebih ringkas dan mudah dibaca, tanpa perlu membuat banyak kondisi untuk perbandingan.
 
-Bagian output menunjukkan bahwa program berhasil. Setelah memasukkan angka 90, 20, 60, 70, dan 0 program dengan tepat menemukan bahwa angka terbesar adalah 90. Ini menunjukkan bahwa logika untuk mencari angka terbesar berfungsi dengan baik.
+Bagian output menunjukkan bahwa program berhasil. Setelah memasukkan angka 31, 20, dan 0 program dengan tepat menemukan bahwa angka terbesar adalah 31. Ini menunjukkan bahwa logika untuk mencari angka terbesar berfungsi dengan baik.
 
 ## Cara Kerja Program 2
 
