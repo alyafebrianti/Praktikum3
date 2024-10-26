@@ -92,7 +92,7 @@ Press Enter to exit terminal
 ## Cara Kerja Program 1
 Menerima input 3 bilangan (A, B, C) dari user Melakukan pengecekan dengan urutan: Apakah A > B? Jika ya: cek apakah A > C? Jika ya: A adalah terbesar Jika tidak: C adalah terbesar Jika tidak: cek apakah B > C? Jika ya: B adalah terbesar Jika tidak: C adalah terbesar Menampilkan bilangan terbesar yang ditemukan.
 
-Program ini dimulai dengan meminta pengguna untuk memasukkan tiga angka. Setelah angka-angka tersebut dimasukkan, program menggunakan fungsi max() untuk menentukan angka yang paling besar di antara ketiga angka tersebut. Fungsi max()  secara otomatis membandingkan semua angka dan mengembalikan yang terbesar. Setelah menemukan angka terbesar, program menampilkan hasilnya kepada pengguna dengan kalimat yang jelas. Dengan cara ini, kode menjadi lebih ringkas dan mudah dibaca, tanpa perlu membuat banyak kondisi untuk perbandingan.
+Kode ini menentukan bilangan terbesar dari tiga angka yang dimasukkan pengguna. Pertama, pengguna memasukkan tiga bilangan yang disimpan dalam variabel a, b, dan c. Program kemudian membandingkan ketiga bilangan tersebut. Jika a lebih besar dari b, maka a dibandingkan dengan c. Jika a lebih besar dari keduanya, a adalah yang terbesar. Jika tidak, maka c yang terbesar. Jika a tidak lebih besar dari b, maka b dibandingkan dengan c; jika b lebih besar, maka b adalah yang terbesar, jika tidak, c yang terbesar. Terakhir, program mencetak bilangan terbesar tersebut.
 
 Bagian output menunjukkan bahwa program berhasil. Setelah memasukkan angka 31, 20, dan 0 program dengan tepat menemukan bahwa angka terbesar adalah 31. Ini menunjukkan bahwa logika untuk mencari angka terbesar berfungsi dengan baik.
 
