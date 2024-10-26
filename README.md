@@ -2,11 +2,11 @@
 ## Nama: Alya Febrianti
 ## Kelas : TI 24.A.1
 # 1. Program Mencari Bilangan Terbesar dari 3 Variabel
-Program sederhana menentukan bilangan terbesar dari tiga angka yang dimasukkan
+Program sederhana menentukan bilangan terbesar dari tiga angka yang dimasukkan pengguna.
 
 ## Deskripsi Program
 - Meminta user memasukkan 3 bilangan berbeda
-- function tersebut menggunakan nested if-else statement untuk membandingkan angka yang di inputkan
+- fungsi tersebut menggunakan pernyataan if-else bersarang untuk membandingkan angka yang di inputkan
 - Kemudian akan menampilkan Mana bilangan terbesar
 - Lalu kita panggil kembali function mencari_biilangan_terbesar
 - Lalu Output bilangan terbesar dari ketiga bilangan yang di input akan muncul
